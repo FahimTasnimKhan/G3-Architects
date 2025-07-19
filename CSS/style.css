@@ -6,6 +6,18 @@
 }
 
 /*To center a div give max-width of 1400px to div and give it a margin of 0 auto */
+/* To make sure that all contents are in the middle */
+.navbar,
+.banner,
+.teams {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* Colors */
 .dark-2 {
   color: #424242;
@@ -23,15 +35,11 @@
   background-color: rgba(255, 144, 14, 0.1);
 }
 
-html {
-  font-size: 62.5%;
-}
-
-/* Navbar Section */
-
 .display-flex {
   display: flex;
 }
+
+/* Navbar Section */
 
 .navbar {
   justify-content: space-between;
@@ -98,12 +106,37 @@ html {
   margin-top: 32px;
 }
 
-/* To make sure that all contents are in the middle */
+.teams {
+  align-items: center;
+  margin-top: 85px;
+  gap: 74px;
+}
 
-.navbar,
-.banner {
-  max-width: 1400px;
-  margin: 0 auto;
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 11px;
+}
+
+.feature-title {
+  font-size: 2.8rem;
+}
+
+.Span-1 {
+  font-weight: 400;
+}
+
+.Span-2 {
+  font-weight: 700;
+}
+
+.Span-3 {
+  color: rgba(255, 144, 14, 1);
+}
+
+.feature-description {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /* RESPONSIVE MEDIA */
