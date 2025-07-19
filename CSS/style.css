@@ -1,0 +1,115 @@
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*To center a div give max-width of 1400px to div and give it a margin of 0 auto */
+/* Colors */
+.dark-2 {
+  color: #424242;
+}
+
+.dark-1 {
+  color: #131313;
+}
+
+.dark-3 {
+  color: #727272;
+}
+
+.bg-primary {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Navbar Section */
+
+.display-flex {
+  display: flex;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #131313;
+}
+
+.nav-links {
+  gap: 20px;
+  align-items: center;
+  font-weight: 500;
+  color: #424242;
+  font-size: 18px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-links a:visited {
+  color: #424242;
+}
+
+.nav-items {
+  list-style: none;
+  margin-right: 30px;
+}
+
+/* Banner Section */
+.banner-content {
+  max-width: 840px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.banner-description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: rgba(255, 144, 14, 1);
+  color: #fff;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
+/* To make sure that all contents are in the middle */
+
+.navbar,
+.banner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* RESPONSIVE MEDIA */
+
+@media screen and (max-width: 576px) {
+  .display-flex {
+    flex-direction: column;
+  }
+}
